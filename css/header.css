@@ -1,10 +1,17 @@
 .header {
-  padding: 10px 15px;
-  border-bottom: 1px solid #AAAAAA;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #FFF;
+  border-bottom: 1px solid #AAA;
 }
 
 .header__wrapper {
+  height: 50px;
+  padding: 0 15px;
   display: flex;
+  align-items: center;
 }
 
 .header__logo {
@@ -31,7 +38,7 @@
   align-items: center;
   width: 50px;
   height: 30px;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   border-radius: 4px;
   overflow: hidden;
 }
